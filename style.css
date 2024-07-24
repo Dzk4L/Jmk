@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('red.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    justify-content: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    padding: 30px 40px;
+}
+
+#formContent {
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.tabTitle {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the login form inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #004446;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.underlineHover {
+    color: white;
+    text-decoration: none;
+}
+
+.fi {
+    font-size: 50px;
+    color: #007bff;
+    margin-bottom: 20px;
+}

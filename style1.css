@@ -1,0 +1,83 @@
+/* Gaya untuk header halaman */
+h2 {
+    color: #333;
+}
+
+/* Gaya untuk formulir */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Tombol */
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.btn-warning:hover {
+    background-color: #d39e00;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #bd2130;
+}
+
+/* Gaya untuk tabel */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Gaya untuk pesan sukses dan pesan error */
+.alert {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
